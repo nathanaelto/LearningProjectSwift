@@ -13,6 +13,7 @@
 		A9C24811286A0EED00BE372C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C24810286A0EED00BE372C /* Preview Assets.xcassets */; };
 		A9C2481C286A24B600BE372C /* FeatureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2481B286A24B600BE372C /* FeatureApp.swift */; };
 		B90D210360A9D774E22AB0D8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B90D2C1A64C11B1A800D322C /* .gitignore */; };
+		B90D231741F4CD91EEC46BFB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B90D280811ECA029D2E1C11E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A9C2480D286A0EED00BE372C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C24810286A0EED00BE372C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9C2481B286A24B600BE372C /* FeatureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureApp.swift; sourceTree = "<group>"; };
+		B90D280811ECA029D2E1C11E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B90D2C1A64C11B1A800D322C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +44,7 @@
 				A9C24808286A0EEA00BE372C /* LearningProject */,
 				A9C24807286A0EEA00BE372C /* Products */,
 				B90D2C1A64C11B1A800D322C /* .gitignore */,
+				B90D280811ECA029D2E1C11E /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +150,7 @@
 				A9C2480C286A0EEA00BE372C /* ContentView.swift in Sources */,
 				A9C2481C286A24B600BE372C /* FeatureApp.swift in Sources */,
 				A9C2480A286A0EEA00BE372C /* LearningProjectApp.swift in Sources */,
+				B90D231741F4CD91EEC46BFB /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
