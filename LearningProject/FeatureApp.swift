@@ -13,14 +13,3 @@ enum AppStatus {
     case installed
 }
 
-class A {
-    
-}
-
-class B: A {
-    
-}
-
-struct FeatureApp {
-    
-}
