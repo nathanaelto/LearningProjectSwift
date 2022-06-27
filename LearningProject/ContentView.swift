@@ -42,12 +42,16 @@ struct ContentView: View {
                 Text(name)
                     .foregroundColor(.black)
                     .onTapGesture {
-                        alterText = "Bonjour " + name
+                        if (name == "Paul"){
+                            alterText = name + " dit qu'il est con"
+                        } else {
+                            alterText = name + "a dit que Paul est con"
+                        }
                         showingAlert = true
                     }
             }
             .alert(isPresented: $showingAlert) {
-                Alert(title: Text(alterText), dismissButton: .default(Text("Hi")))
+                Alert(title: Text(alterText), dismissButton: .default(Text("Evidement")))
             }
         }.padding()
     }

@@ -13,7 +13,7 @@ class AClass {
     var name = ""
 
     func sayHello() {
-
+        print(name)
     }
 }
 
@@ -23,7 +23,7 @@ struct AStruct {
     var name = ""
 
     func sayHello() {
-
+        print(name)
     }
 }
 
